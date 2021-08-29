@@ -1,0 +1,18 @@
+<div class="container">
+
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <main>
+        <ul>
+            {{clients}}
+        </ul>
+    </main>
+</div>
+
+<script type="text/javascript">
+    function exampe(clientName) {
+        alert('welcome ' + clientName)
+    }
+</script>
